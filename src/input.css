@@ -6,6 +6,10 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar-fixed {
     @apply fixed z-[9999] bg-white bg-opacity-60;
     backdrop-filter: blur(5px);
@@ -17,7 +21,7 @@ body {
 }
 
 .hamberger-active > span:nth-child(1) {
-    @apply  rotate-45;
+    @apply rotate-45;
 }
 
 .hamberger-active > span:nth-child(2) {
